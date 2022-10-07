@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form lấy suvey khách hàng</title>
+</head>
+<style>
+    table, th,td  {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<hr>
+<p>What is your age range?</p>
+<select name="age">
+    <option value="age">18-24</option>
+    <option value="25-34">25-34</option>
+    <option value="35-50">35-50</option>
+    <option value="50+">50+</option>
+</select>
+<p>What is your yearly income range?</p>
+<select name="dola" id="anh">
+    <option value="10">$0-$25,000</option>
+    <option value="10">$25,000-$50,000</option>
+    <option value="10">$50,000-$100,000</option>
+    <option value="10">$100,000+</option>
+</select>
+<p>Gender Identity</p>
+<input type="radio" name="1" id="a">
+<label for="a">Male</label><br>
+<input type="radio" name="1" id="b">
+<label for="b">Female</label><br>
+<input type="radio" name="1" id="c">
+<label for="c">Nonbinary</label><br>
+<input type="radio" name="1" id="d">
+<label for="d">Other</label><br>
+<input type="text">
+<p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+<input type="checkbox" name="cốlen" id="gg">
+<label for="gg">Product 1</label><br>
+<input type="checkbox" name="tôi" id="ll">
+<label for="ll">Product 2</label><br>
+<input type="checkbox" name="ơi" id="cc">
+<label for="cc">Product 3</label><br><br>
+<p>How often would you use our new product?</p>
+<input type="radio" name="yeah" id="123">
+<label for="123">Daily</label><br>
+<input type="radio" name="yeah" id="234">
+<label for="234">Weekly</label><br>
+<input type="radio" name="yeah" id="345">
+<label for="345">Monthly</label><br><br>
+<p>What would you pay for the new product?</p>
+<input type="text">. <input type="text">
+<p>What features would you like to see in the new product</p>
+<table  style="height: 200px; width: 600px">
+</table>
+<p>Please rate your lever of agreement with the following statements.</p>
+<table>
+    <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+    </tr>
+    <tr>
+        <td>Our products are priced fairly</td>
+        <td><input type="radio" name="123" id="as">
+            <label for="as">1</label>
+        </td>
+        <td>
+            <input type="radio" name="123" id="ad">
+            <label for="ad">2</label>
+
+        </td>
+        <td>
+        <input type="radio" name="123" id="af">
+            <label for="af">3</label>
+        </td>
+
+    </tr>
+    <tr>
+        <td>Our products are hight qualily</td>
+        <td><input type="radio" name="123" id="cv">
+            <label for="cv">1</label></td>
+        <td><input type="radio" name="123" id="ds">
+            <label for="ds">2</label></td>
+        <td><input type="radio" name="123" id="bn">
+            <label for="bn">3</label></td>
+    </tr>
+    <tr>
+        <td>You would recommend our product to a frien or coworker</td>
+        <td><input type="radio" name="123" id="cx">
+            <label for="cx">1</label></td>
+        <td><input type="radio" name="123" id="qw">
+            <label for="qw">2</label></td>
+        <td><input type="radio" name="123" id="rt">
+            <label for="rt">3</label></td>
+    </tr>
+
+</table>
+<br>
+<input type="submit" value="submit">
+
+</body>
+</html>
